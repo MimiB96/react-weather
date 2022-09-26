@@ -10,7 +10,11 @@ export default function App() {
         <Weather homeCity="Ikeja" />
         <footer>
           Open-Sourced on{" "}
-          <a href="https://github.com/MimiB96" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/MimiB96/react-weather"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github
           </a>{" "}
           by Mimi Bribena
