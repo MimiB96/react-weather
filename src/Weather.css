@@ -1,0 +1,17 @@
+.Weather {
+  border: 1px solid #ece588;
+}
+.Weather h1 {
+  color: maroon;
+  display: block;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 29px;
+}
+.Weather li {
+  list-style: none;
+  color: magenta;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
