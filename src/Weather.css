@@ -25,9 +25,7 @@
   line-height: 19px;
 }
 .WeatherIcon canvas {
-  margin-top: 5px;
-  margin-right: 5px;
-  color: brown;
+  display: inline-block;
 }
 .Weather .temperature {
   font-weight: bold;
@@ -43,10 +41,5 @@
   color: coral;
   top: -34px;
   font-weight: 400;
-
   text-decoration: none;
-}
-
-.Weather .riseSet {
-  color: rgb(212, 95, 53);
 }

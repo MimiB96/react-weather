@@ -16,15 +16,8 @@ export default function WeatherInfo(props) {
       <div className="row mt-3">
         <div className="col-6">
           <div className="clear-fix">
-            <div className="float-left">
-              <WeatherIcon
-                code={props.data.icon}
-                alt={props.data.description}
-              />
-            </div>
-            <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
-            </div>
+            <WeatherIcon code={props.data.icon} alt={props.data.description} />
+            <WeatherTemperature celsius={props.data.temperature} />
           </div>
         </div>
         <div className="col-6">
@@ -32,14 +25,6 @@ export default function WeatherInfo(props) {
             <li>Feels like: {props.data.feels_like} °</li>
             <li>Humidity: {props.data.humidity} %</li>
             <li>Wind: {props.data.wind} m/s</li>
-            <li className="riseSet">
-              Sunrise:
-              {props.data.sunrise}
-            </li>
-            <li className="riseSet">
-              Sunset:
-              {props.data.sunset}
-            </li>
           </ul>
         </div>
       </div>
