@@ -1,6 +1,6 @@
 .App {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 0px auto;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #ece588;
@@ -30,6 +30,7 @@
     transform: rotate(360deg);
   }
 }
-h1 {
-  margin-bottom: 0;
+.App footer {
+  font-size: 11px;
+  margin: 20px;
 }
